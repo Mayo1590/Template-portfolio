@@ -151,7 +151,6 @@ img {
 
 footer {
     position: absolute;
-    font-size: 14px;
     background-color: #96c7e793;
     bottom: 0;    
     left: 0;
@@ -171,7 +170,7 @@ footer {
     vertical-align: middle;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1230px) {
     .img-p {
         display: unset;
         width: 100%;
@@ -207,4 +206,28 @@ footer {
     width: 150px;
     bottom: 2rem;
     position: absolute;
+}
+
+@media (max-width: 400px) {
+    .contact a {
+        font-size: 12px;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 380px) {
+    .title-footer {
+        font-size: 12px;
+    }
+
+    .contact a {
+        font-size: 10px;
+    }
+
+    .copy {
+        font-size: 10px;
+    }
 }
