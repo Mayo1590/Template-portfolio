@@ -134,6 +134,19 @@ body {
     border-bottom: none;
 }
 
+h3 {
+    text-align: center;
+    color: #701e7a;
+}
+
+.projet {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 /* Contenu */
 
 h1 {
@@ -155,10 +168,23 @@ p {
     margin-left: 20%;
 }
 
+.projet p {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
 .liens-externes {
-    margin-left: 20%;
     margin-right: 20%;
     text-decoration: none;
+}
+
+.projet .liens-externes {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 2px;
 }
 
 .contact .liens-externes,
@@ -200,11 +226,20 @@ p {
     .wpcf7-submit {
         font-size: 14px;
     }
+
+    .projet {
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
 }
 
 @media (max-width: 500px) {
     .liens-externes {
         font-size: small;
+    }
+
+    .projet .liens-externes {
+        font-size: 16px !important;
     }
 }
 
@@ -251,6 +286,12 @@ footer {
     margin-left: 20%;
     margin-right: 0 !important;
     vertical-align: middle;
+}
+
+.projet img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 @media (max-width: 1630px) {    

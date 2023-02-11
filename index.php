@@ -10,15 +10,18 @@
     </div>
 
     <div class="contenu">
+        <h2>Mes projets :</h2>
         <?php
 		if ( have_posts() ) :
 			while ( have_posts() ) :
 				the_post();			
         ?>
-        <h2><?php the_title(); ?></h2>
-        <p>
+
+        <div class="projet">
+            <h3><?php the_title(); ?></h3>
             <?php the_content(); ?>
-        </p>
+        </div>
+
         <?php
 			endwhile;
 		else :
