@@ -2,6 +2,7 @@ body {
     font-family: arvo;
     min-height: 100vh;
     position: relative;
+    margin: 0;
 }
 
 .contenu {
@@ -40,8 +41,9 @@ body {
     .liens li a {
         display: block;
         text-decoration: none;
-        padding: 1rem;
+        padding: 1.5rem;
         color: black;
+        font-size: 17px;
     }
 
     .liens a:hover {
@@ -121,14 +123,14 @@ body {
         margin-right: auto;
         margin-top: 2%;
         margin-bottom: 2%;
-        width: 10%;
+        width: 20%;
         padding: 0.5rem;
         text-align: center;
         border: 0.5px solid lightgrey;
     }
 
     .button:hover {
-        color: #3ca0e7;
+        background-color: #46a5e9c0;
     }
 
     .mes-liens p,
@@ -157,7 +159,7 @@ body {
         margin-left: auto;
         display: block;
         text-align: center;
-        padding-bottom: 2px;
+        margin-bottom: 5px;
     }
 
     .accueil {
