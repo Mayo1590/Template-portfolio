@@ -7,9 +7,3 @@
     </p>
 
 <?php get_footer(); ?>
-
-</body>
-
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
-<script src="https://kit.fontawesome.com/4901acba97.js" crossorigin="anonymous"></script>
-</html>

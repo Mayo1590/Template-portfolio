@@ -19,7 +19,7 @@
 
         <div class="projet">
             <h3><?php the_title(); ?></h3>
-            <?php the_content(); ?>
+            <?php the_excerpt(); ?>
         </div>
 
         <?php
@@ -32,8 +32,6 @@
 
     <?php get_footer(); ?>
 
-</body>
-
 <style>
     .icon .bar {
         z-index: 1;
@@ -44,6 +42,3 @@
         z-index: 1;
     }
 </style>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
-<script src="https://kit.fontawesome.com/4901acba97.js" crossorigin="anonymous"></script>
-</html>
