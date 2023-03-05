@@ -203,6 +203,23 @@ body {
 
 /*------*/
 
+/* projet détail */
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.projet-detail p {
+    text-align: justify;
+}
+
+.projet-detail img {
+    max-width: 600px;
+}
+
+/*-------*/
+
 /* image avec paragraphe */
 
     .img-p {
